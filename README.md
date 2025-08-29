@@ -1,3 +1,5 @@
+<img width="1883" height="799" alt="Captura de tela 2025-08-28 181557" src="https://github.com/user-attachments/assets/8cddf275-6133-40ef-b72a-32ed868be082" />
+
 #  Projeto Spotify – Alura
 
 ## 1. Objetivo do projeto
@@ -27,3 +29,30 @@ Foi construída uma página que exibe músicas ou playlists consultadas via API 
 - Incluir efeitos visuais e transições CSS para tornar a interface mais atraente e interativa.
 - Implementar testes (unitários e de integração) para garantir estabilidade das funcionalidades.
 - Fazer deploy online (por exemplo, via GitHub Pages ou Netlify) para disponibilizar o projeto como demonstração pública.
+
+## Passo a passo da execução
+
+- Clone o repositório
+- Abrir diretamente no navegador:
+    Encontre o arquivo index.html na raiz do projeto
+    Dê um duplo clique para abri-lo diretamente no navegador — a aplicação deve rodar normalmente, já que é uma SPA simples
+
+- (Recomendado) Usar servidor local
+Para evitar potenciais limitações de CORS ou bloqueios de requisições via fetch, é interessante servir os arquivos via um servidor local simples:
+
+Python (se instalado):
+
+# Python 3.x
+python3 -m http.server 8000
+
+Acesse http://localhost:8000 no navegador.
+
+Node.js (se instalado):
+
+npm install -g serve
+serve
+
+Ou, se quiser, pode usar um script como npx http-server:
+
+npx http-server
+
